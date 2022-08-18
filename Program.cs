@@ -32,14 +32,30 @@
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.Clear();
-Console.WriteLine("Введите по очередно кординаты 1 точки : ");
-int x1 = int.Parse(Console.ReadLine());
-int y1 = int.Parse(Console.ReadLine());
-int z1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите по очередно кординаты 2 точки : ");
-int x2 = int.Parse(Console.ReadLine());
-int y2 = int.Parse(Console.ReadLine());
-int z2 = int.Parse(Console.ReadLine());
-double d = Math.Sqrt(Math.Pow(x1-x2, 2) + Math.Pow(y2-y1, 2) + Math.Pow(z1-z2, 2));
-Console.Write($"d = {d:f2}");
+// Console.Clear();
+// Console.WriteLine("Введите по очередно кординаты 1 точки : ");
+// int x1 = int.Parse(Console.ReadLine());
+// int y1 = int.Parse(Console.ReadLine());
+// int z1 = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите по очередно кординаты 2 точки : ");
+// int x2 = int.Parse(Console.ReadLine());
+// int y2 = int.Parse(Console.ReadLine());
+// int z2 = int.Parse(Console.ReadLine());
+// double d = Math.Sqrt(Math.Pow(x1-x2, 2) + Math.Pow(y2-y1, 2) + Math.Pow(z1-z2, 2));
+// Console.Write($"d = {d:f2}");
+
+
+// Задача 23
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+// Console.Clear();
+// Console.WriteLine("Введите число : ");
+// int num = int.Parse(Console.ReadLine());
+// int count =1;
+// while (count <= Math.Abs(num))
+// {
+//     Console.Write($"|{Math.Pow(count++, 3)}| ");
+// }
